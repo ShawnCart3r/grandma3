@@ -1,5 +1,6 @@
 div.gallery {
     border: 1px solid #ccc;
+    margin: auto;
   }
   
   div.gallery:hover {
@@ -44,6 +45,5 @@ div.gallery {
     display: table;
     clear: both;
   }
-
-
+  
   
