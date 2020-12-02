@@ -22,7 +22,7 @@
     background-repeat: none;
     opacity: 0;
     z-index: 0;
-    animation: backgroundSlideshow 10s linear infinite 0s;
+    animation: backgroundSlideshow 10s linear infinite 1s;
   }
   .slideshow li:nth-child(1) .img-bg-slide {
      background-image: url("./imagine/beach.jpg");
@@ -47,6 +47,8 @@
     100% { opacity: 0;} 
   }
 
+  
+
 
 html {
     font-size: 62.5%;
@@ -61,3 +63,98 @@ html {
     left: 2em;
     color: #FFFFFF;
   }
+
+  * {
+    font-family: verdana;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    color: #ddd;
+    box-sizing: border-box;
+  }
+  
+  .section-hero {
+    height: 100vh;
+    background: green;
+    /* url(" https://images.unsplash.com/photo-1573203425066-c8a62c0fa1fd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60")
+    no-repeat center center/cover; */
+    /* url("https://images.unsplash.com/photo-1499336315816-097655dcfbda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2110&q=80")
+      no-repeat center center/cover; */
+  
+    /* */
+    color: #fff;
+    position: relative;
+    transition: 1s;
+  }
+  
+  .section-hero__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* position: absolute;
+    top: 39px;
+    left: 0; */
+    
+  }
+  
+  .section-hero__content h1 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  .picnav-left,
+  .picnav-right {
+    position: absolute;
+    top: 50vh;
+    transform: translateY(-50% -50%);
+  
+    padding: 0.5rem;
+    background-color: #333;
+    opacity: 0.6;
+    border-radius: 50%;
+    color: #fff;
+  
+    width: 1rem;
+    height: 1rem;
+    z-index: 1000;
+  }
+  
+  .picnav-left {
+    left: 3vh;
+  }
+  
+  .picnav-right {
+    right: 3vh;
+  }
+  
+  .picnav-left span {
+    display: block;
+    height: 0.8rem;
+    width: 0.8rem;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    text-align: center;
+    margin: auto auto;
+    transform: rotate(45deg);
+    margin-top: 3px;
+    margin-left: 5px;
+  }
+  
+  .picnav-right span {
+    display: block;
+    height: 0.8rem;
+    width: 0.8rem;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    text-align: center;
+    margin: auto auto;
+    transform: rotate(45deg);
+    margin-top: 3px;
+    margin-left: -2px;
+  }
+  
