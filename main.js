@@ -9,11 +9,10 @@ function myFunction() {
   }
 
   const urls = [
-    "https://images.unsplash.com/photo-1499336315816-097655dcfbda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2110&q=80",
-
-    "https://images.unsplash.com/photo-1573203425066-c8a62c0fa1fd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-
-    "https://images.unsplash.com/photo-1550236520-7050f3582da0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+   "./imagine/front/1.jpg",
+   "./imagine/front/2.jpg",
+   "./imagine/front/3.jpg",
+   "./imagine/front/4.jpg"
   ];
 
   const countPic = urls.length;
